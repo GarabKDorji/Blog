@@ -1,0 +1,15 @@
+<%- include("partials/header.ejs") %>
+<div class="container ">
+    <h1 class="" >Hello, let's Vlog!</h1>
+    <p class="my-5 "> 
+        <ul >
+            <%if(locals.nVlog && locals.cVlog)%>
+            <%for(let i=0; i< locals.nVlog.length; i++) {%>
+                <li class="my-5 caveat-light "><h2 class = ""><%= locals.nVlog[i]%> </h2><br>
+                <%=locals.cVlog[i].substring(0, 150)%> ...<a href="/compose/<%=locals.nVlog[i]%>">Read More</a> <br></li>
+            <%}%>
+        </ul>
+    </p>
+
+</div>
+<%- include("partials/footer.ejs") %>

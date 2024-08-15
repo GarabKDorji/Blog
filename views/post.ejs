@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+<div class="container">
+    <h1>You have entered in a time zone.</h1>
+    <p>
+        <%if(locals.nVlog && locals.cVlog){%>
+
+            <h2><%= locals.nVlog%> </h2><br>
+            <%=locals.cVlog%> <br>
+        <%}%>
+    </p>
+</div>
+
+
+<%- include("partials/footer.ejs") %>

@@ -1,0 +1,28 @@
+main{
+    height: 100vh;
+    background-image: linear-gradient(to right, #f8f9fa ,#495057);
+    overflow: auto;
+}
+textarea{
+
+    width: 150vh;
+    height: 30vh;
+}
+
+.caveat-light,p{
+font-family: "Caveat", cursive;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+}
+p{
+    font-size: 2rem;
+}
+h1{
+font-family: "Caveat", cursive; 
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
+font-size: 3.5rem;
+}
+
